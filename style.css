@@ -1,0 +1,120 @@
+body{
+    background-image: linear-gradient(to left, rgb(9, 0, 88), rgb(11, 6, 61));
+}
+
+#principal{
+    max-width: 600px;
+    margin: auto;
+}
+
+#myName{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+label{
+    color: white;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+#enviar{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#butao{
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(152, 195, 250);
+    color: black;
+    margin-top: 100px;
+}
+
+#butao:hover{
+    cursor: pointer;
+}
+
+#garanto{
+    font-size: 1.5rem;
+    display: none;
+}
+
+#alerta{
+    display: none;
+    animation: piscando 1.5s infinite alternate;
+}
+
+#alerta2{
+    display: none;
+}
+
+.blocked{
+    display: block;
+}
+
+@keyframes piscando{
+    from{
+        transform: scale(0.7);
+    }   
+    to{
+        transform: scale(1);
+    }
+}
+
+@media (max-width:430px){ 
+    
+    #myName{
+        color: white;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    p{
+        color: white;
+        text-align: center;
+    }
+
+    label{
+        color: white;
+    }
+
+    form{
+        width: 90%;
+        margin: auto;
+    }
+
+    #enviar{
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+
+    #butao{
+        display: block;
+        margin: auto;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(152, 195, 250);
+        color: black;
+        margin-top: 100px;
+    }
+
+    #butao:hover{
+        cursor: pointer;
+    }
+
+    #garanto{
+        font-size: 1.5rem;
+        display: none;
+    }
+}
